@@ -12,6 +12,6 @@ export default defineNuxtConfig({
     },
   },
   router: {
-    base: '/',
+    base: '/nuxt-tailwind-daisy/',
   },
 })
