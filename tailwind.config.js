@@ -1,10 +1,10 @@
 module.exports = {
   purge: [
-    "./app.vue", // <= ドキュメントからさらに追加
-    "./components/**/*.{vue,js}",
-    "./layouts/**/*.vue",
-    "./pages/**/*.vue",
-    "./plugins/**/*.{js,ts}",
+    './app.vue', // <= ドキュメントからさらに追加
+    './components/**/*.{vue,js}',
+    './layouts/**/*.vue',
+    './pages/**/*.vue',
+    './plugins/**/*.{js,ts}',
   ],
   darkMode: false, // or 'media' or 'class'
   theme: {
@@ -13,5 +13,5 @@ module.exports = {
   variants: {
     extend: {},
   },
-  plugins: [require("daisyui")],
-};
+  plugins: [require('daisyui')],
+}
